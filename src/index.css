@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tablet {
+  @apply font-semibold bg-tablet rounded px-2 py-1 my-1 mr-2 cursor-pointer transition-all hover:bg-cyan-primary hover:text-white inline-block;
+}
+
+.tablet--2 {
+  @apply text-xs uppercase rounded-full px-2 py-1 text-white mx-1;
+}
+
+.tablet--2--primary {
+  @apply bg-cyan-primary;
+}
+
+.tablet--2--secondary {
+  @apply bg-black;
+}
+
+.tablet.tablet--remove {
+  @apply hover:bg-red-600;
+}
